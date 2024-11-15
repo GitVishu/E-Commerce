@@ -182,27 +182,10 @@ strong {
   padding-block: 0;
 }
 
-.apps {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
 
 
 
-@media (max-width: 399px) {
-  .download-btn p {
-    font-size: 1.4rem;
-  }
-  .download-btn span {
-    font-size: 1.4rem;
-  }
-}
 
-@media (max-width: 345px) {
-  .apps {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
+
 </style>

@@ -78,7 +78,7 @@ To get a local copy up and running, follow these steps.
    git clone https://github.com/yourusername/e-commerce-vue.git
    ```
 2. Navigate to the project directory:
-   ``` bash
+   ```bash
    cd e-commerce-vue
    ```
 3. Install dependencies:

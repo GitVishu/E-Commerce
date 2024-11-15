@@ -16,7 +16,6 @@ export default {
   name: "HeroSection",
   data() {
     return {
-      // Load images using require() with error handling
       images: [
         require("@/assets/banner6.jpg"),
         require("@/assets/banner4.jpg"),
@@ -36,10 +35,10 @@ export default {
   },
   methods: {
     startSlideShow() {
-      // Automatically change images every 3 seconds
+      
       this.intervalId = setInterval(() => {
         this.currentIndex = (this.currentIndex + 1) % this.images.length;
-      }, 3000); // Adjust interval as needed
+      }, 3000); 
     },
     stopSlideShow() {
       if (this.intervalId) {
@@ -57,9 +56,9 @@ export default {
 /* Banner Styles */
 .banner {
   width:100%;
-  /* max-width:600px; */
-  height: auto; /* Maintain aspect ratio */
-  margin: 0 auto; /* Center align */
+
+  height: auto; 
+  margin: 0 auto;
   display: block;
   text-decoration: none;
   color: inherit;
@@ -97,7 +96,7 @@ export default {
 }
 @media (max-width: 600px) {
     .banner {
-        width: 100%; /* Increase width on smaller screens */
+        width: 100%;
     }
 }
 </style>
