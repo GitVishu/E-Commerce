@@ -17,7 +17,7 @@ An e-commerce platform built using **Vue.js** to provide a seamless shopping exp
 
 ## Demo
 
-You can check out the live demo of the website [here](#) _(replace with your link if available)_.
+You can check out the live demo of the website [here](https://tourmaline-gelato-05d313.netlify.app/) _(replace with your link if available)_.
 
 
 ## Screenshots
